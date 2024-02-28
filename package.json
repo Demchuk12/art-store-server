@@ -5,14 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Demchuk12/art-store-server.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,12 +18,6 @@
   },
   "homepage": "https://github.com/Demchuk12/art-store-server#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
     "json-server": "^1.0.0-alpha.23"
-  },
-  "devDependencies": {
-    "json-server-auth": "^2.1.0",
-    "nodemon": "^3.1.0"
   }
 }
